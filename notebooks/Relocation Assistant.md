@@ -3,7 +3,7 @@
 ## Business Problem  
 People often relocate to a different area for various reasons. The reason why people move are varied, and the following graphics shows some of the top reasons.
 
-![us-moving-reasons-graphic](moving-reasons.jpg) <img src="moving-reasons.jpg"  width="45" height="45">
+<img src="moving-reasons.jpg"  width="275" height="275">
 
 [source: [us-moving-statistics-for-2019](https://www.moving.com/tips/us-moving-statistics-for-2019/)]
 
