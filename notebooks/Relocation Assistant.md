@@ -18,3 +18,16 @@ Crowd sourcing is one of the best ways to see what kind of people relocate and f
 This notebook implements **a subset of the requirements** of a typical relocation assistant, by pulling geographical information about LA county and adding additional data for the users to query and decide the location to visit for relocation. For example and illustration, this assignment uses the shooting incidents in LA county as one form of criminal episodes to enrich the dataset.
 
 This notebook, though not a full fledged application, provides a simple prototype for the analytics part of an application. While things like persistence, deploymet, GUI are outside the scope of this exercise, the trained model in this notebook can be deployed and used with real data for a real life application. 
+
+## Datasets Used:
+
+- wikipedia_la_cities = "https://en.wikipedia.org/wiki/List_of_cities_in_Los_Angeles_County,_California"
+- la_county_zipcodes = "https://namecensus.com/igapo/zip_codes/counties/alpha/Los Angeles County-California1.html"
+- shooting_incident_report = "https://data.lacounty.gov/Criminal/All-Shooting-Incidents-for-Deputy-Involved-Shootin/d5zc-33fr"
+- Zipcode 1 [used] = "https://namecensus.com/igapo/zip_codes/counties/alpha/Los%20Angeles%20County-California1.html"
+- Zipcode 2 [not used] = "https://www.laalmanac.com/communications/cm02_communities.php"
+- Census [used] = "https://catalog.data.gov/dataset/2010-census-populations-by-zip-code"
+- Population by Zipcodes = "https://www.zip-codes.com/city/ca-los-angeles.asp
+- Latitude / Longitude = "https://gist.githubusercontent.com/erichurst/7882666/raw/5bdc46db47d9515269ab12ed6fb2850377fd869e/US%2520Zip%2520Codes%2520from%25202013%2520Government%2520Data"
+- USZipcodes.csv
+- 
