@@ -46,11 +46,12 @@ The essential step of any ML based study is preparation of data. This is key esp
     
   + Duplicates:  The duplicates are unavoidable in a public dataset, and especially when crowd sourced datasets are merged together. These duplicates are filtered out by simple removal of the second and following records. An example is shown below
   
-  [The following screenshot](!../../images/duplicates_illustration.png) shows the number of rows (980) in a dataframe that contains duplicates and inconsistent entries
+  [The following screenshot](!../../images/duplicates_illustration.png) shows the number of rows (980) in a dataframe that contains duplicates and inconsistent entries. There are multiple entries with value `Los Angeles (Wilshire Center)`. And there are entires with inconsistent names such as `Los Angeles (Southeast Los Angeles)` and `Southeast Los Angeles (Los Angeles)` while indicating the same zipcode.
   
-  ![illustration of duplicates and inconsistent entries](../../images/duplicates_illustration.png)
+  <img src="../images/duplicates_illustration.png"  width="423" height="605">
   
 ## Feature Engineering
 
-Multiple datasets are brought together as outlined in the dataset filed of this report earlier. These datasets are cleansed, merged to form a more complete and unified dataset after the removal of the duplicates.
+Multiple datasets are brought together as outlined in the dataset filed of this report earlier. These datasets are cleansed, merged to form a more complete and unified dataset after the removal of the duplicates. The following screenshot shows the merging of multiple datasets
 
+<img src="../images/feature_engineering_1.png"  width="1122" height="305">
