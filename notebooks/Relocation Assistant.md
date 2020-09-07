@@ -35,3 +35,22 @@ Due to paucity of data available to construct a complete application, this proto
 
 - wikipedia_la_cities = "https://en.wikipedia.org/wiki/List_of_cities_in_Los_Angeles_County,_California"
 - Zipcode 2 [not used] = "https://www.laalmanac.com/communications/cm02_communities.php"
+
+## Data Preperation
+
+The essential step of any ML based study is preparation of data. This is key especially when the dataset is sourced from an uncontrolled source such as public data sources. In this case, the followoing data preparation steps were carried out.
+
+  + Removal missing values: Since there is no column or row can be omitted here, and since there is no easy way to impute the missing values, the incomplete rows were dropped in a dataset from a single source. The variables of interest are things like zipcode, latitude, longitude, demographic information such as mean household age, number of males, females etc, population, and shooting incidents. None of these can be easily guessed, or meaningfully interpolated from other values. For instance the population in a zipcode does not have to be similar or more or less than a nearest zipcode; neither does the shooting incidents etc. Since conceptually it is meaningless to pad values this way, a two pronged approach was taken as described below, to deal with rows that are incomplete in a given dataset. 
+    * Dropping incomplete rows: Drop the rows (for zipcodes) that have missing values in the required columns
+    * Replace with rows from another dataset: Find another public dataset from a different source, that may contain the data for this row (identified by the zipcode) merging both to form a more complete dataset.
+    
+  + Duplicates:  The duplicates are unavoidable in a public dataset, and especially when crowd sourced datasets are merged together. These duplicates are filtered out by simple removal of the second and following records. An example is shown below
+  
+  [The following screenshot](!../../images/duplicates_illustration.png) shows the number of rows (980) in a dataframe that contains duplicates and inconsistent entries
+  
+  ![illustration of duplicates and inconsistent entries](../../images/duplicates_illustration.png)
+  
+## Feature Engineering
+
+Multiple datasets are brought together as outlined in the dataset filed of this report earlier. These datasets are cleansed, merged to form a more complete and unified dataset after the removal of the duplicates.
+
