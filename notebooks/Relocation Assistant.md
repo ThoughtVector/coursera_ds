@@ -55,3 +55,7 @@ The essential step of any ML based study is preparation of data. This is key esp
 Multiple datasets are brought together as outlined in the dataset filed of this report earlier. These datasets are cleansed, merged to form a more complete and unified dataset after the removal of the duplicates. The following screenshot shows the merging of multiple datasets
 
 <img src="../images/feature_engineering_1.png"  width="1122" height="305">
+
+In the merged dataset, the relative proportions of various types of shooting incidents are shown below.
+
+<img src="../images/shooting_incident_bars.png"  width="476" height="690">
