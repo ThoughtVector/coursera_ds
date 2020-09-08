@@ -106,3 +106,29 @@ Using Foursquare APIs totally 269 categories were identified as follows:
 
 <img src="../images/neighbourhood_venue_selected_bar.png" width="985" height="251">  
 
+## Clustering
+
+The final dataset thus created is further processed through clustering algorithm. 
+
+Four different clusters were identified based on various metrics (elbow, silhoutte score etc). The clusters and defined and evaluated based on the top 3 most common venues as discussed in the results section.
+
+The clustering distances are shown below
+
+<img src="../images/inter_cluster_distances.png" width="396" height="288">  
+
+The Los Angeles neighbourhood map with clusters is shown below:
+
+<img src="../images/clustering_map.png" width="1004" height="602">  
+
+## Results
+
+| Cluster     | Mean Population   | Mean Age    |  Mean Number of Households | Average Household Size | Shooting involving injury | Animal Shooting | Non Animal Shooting of concern|
+| :------------- | :----------: | -----------: | ---------: | ---------: | ----------: | ----------: | ----------: |
+|  1 | 27706   | 38    |  9391 | 3  | 0.8  | 0.76  | 1.89  |
+|  2   | 79555 | 30 | 21790 | 3.63 | 3.41 | 5.59 | 5.37 |
+|  3 | 47588   | 34.83    |  14497 | 3.31 |  2.48 | 2.31 | 4.98  |
+|  4   | 8896 | 37.61 |2815 | 2.68 | 1.04 | 0.71 | 1.68 |
+
+### Cluster 1
+
+Cluster 1 involves 
