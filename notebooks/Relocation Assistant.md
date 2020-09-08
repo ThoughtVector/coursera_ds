@@ -62,9 +62,7 @@ The essential step of any ML based study is preparation of data. This is key esp
   
 ## Exploratory Data Analysis and Feature Engineering 
 
-Multiple datasets are brought together as outlined in the dataset filed of this report earlier. These datasets are cleansed, merged to form a more complete and unified dataset after the removal of the duplicates. The following screenshot shows the merging of multiple datasets
-
-<img src="../images/feature_engineering_1.png"  width="1200" height="627">
+Multiple datasets are brought together as outlined in the previous sections. These datasets are cleansed, merged to form a more complete and unified dataset after the removal of the duplicates. 
 
 In the merged dataset, the relative proportions of various types of shooting incidents are shown below.
 
