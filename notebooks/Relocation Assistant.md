@@ -131,6 +131,42 @@ The Los Angeles neighbourhood map with clusters is shown below:
 
 ### Cluster 1
 
-Cluster 1 involves the following 4 most common avenues
+Cluster 1 involves the following 4 most common venues 
+| Name | Chart |
+| :---- | :----- |
+|1st Most Common | <img src="../images/cluster_1_1st_most_common.png" width="983" height="401"> |
+|2nd Most Common | <img src="../images/cluster_1_2nd_most_common.png" width="983" height="401"> |
+|3rd Most Common | <img src="../images/cluster_1_3rd_most_common.png" width="983" height="401"> |
+|4th Most Common | <img src="../images/cluster_1_4th_most_common.png" width="983" height="401"> |
+
+### Cluster 2
+
+Cluster 2 involves the following 4 most common venues
+| Name | Chart |
+| :---- | :----- |
+|1st Most Common | <img src="../images/cluster_2_1st_most_common.png" width="983" height="401"> |
+|2nd Most Common | <img src="../images/cluster_2_2nd_most_common.png" width="983" height="401"> |
+|3rd Most Common | <img src="../images/cluster_2_3rd_most_common.png" width="983" height="401"> |
+|4th Most Common | <img src="../images/cluster_2_4th_most_common.png" width="983" height="401"> |
+
+### Cluster 3
+
+Cluster 3 involves the following 4 most common venues
+| Name | Chart |
+| :---- | :----- |
+|1st Most Common | <img src="../images/cluster_3_1st_most_common.png" width="983" height="401"> |
+|2nd Most Common | <img src="../images/cluster_3_2nd_most_common.png" width="983" height="401"> |
+|3rd Most Common | <img src="../images/cluster_3_3rd_most_common.png" width="983" height="401"> |
+|4th Most Common | <img src="../images/cluster_3_4th_most_common.png" width="983" height="401"> |
+
+### Cluster 4
+
+Cluster 4 involves the following 4 most common venues
+| Name | Chart |
+| :---- | :----- |
+|1st Most Common | <img src="../images/cluster_4_1st_most_common.png" width="494" height="529"> |
+|2nd Most Common | <img src="../images/cluster_4_2nd_most_common.png" width="494" height="529"> |
+|3rd Most Common | <img src="../images/cluster_4_3rd_most_common.png" width="494" height="529"> |
+|4th Most Common | <img src="../images/cluster_4_4th_most_common.png" width="494" height="529"> |
 
 
