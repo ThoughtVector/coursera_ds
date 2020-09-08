@@ -36,7 +36,17 @@ Due to paucity of data available to construct a complete application, this proto
 - wikipedia_la_cities = "https://en.wikipedia.org/wiki/List_of_cities_in_Los_Angeles_County,_California"
 - Zipcode 2 [not used] = "https://www.laalmanac.com/communications/cm02_communities.php"
 
-## Data Preperation
+## Methodology
+
+The standard CRISP-DM methodology was used as described in the following diagram (source - [Wikipedia](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining))
+
+<img src="../images/2156px-CRISP-DM_Process_Diagram.png"  width="475" height="475">
+
+The following sections describe the Data Preparation, exploratory data analysis, and feature engineering. The overall flow is described in the following chart:
+
+<img src="../images/feature_engineering_1.png"  width="1200" height="627">
+
+## Data Preperation & Cleansing
 
 The essential step of any ML based study is preparation of data. This is key especially when the dataset is sourced from an uncontrolled source such as public data sources. In this case, the followoing data preparation steps were carried out.
 
@@ -50,7 +60,7 @@ The essential step of any ML based study is preparation of data. This is key esp
   
   <img src="../images/duplicates_illustration.png"  width="423" height="605">
   
-## Feature Engineering
+## Exploratory Data Analysis and Feature Engineering 
 
 Multiple datasets are brought together as outlined in the dataset filed of this report earlier. These datasets are cleansed, merged to form a more complete and unified dataset after the removal of the duplicates. The following screenshot shows the merging of multiple datasets
 
