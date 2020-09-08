@@ -124,10 +124,10 @@ The Los Angeles neighbourhood map with clusters is shown below:
 
 | Cluster | Mean Population | Mean Age | Mean Number of Households | Average Household Size | Shooting involving Human injury | Non Animal Shooting Incidents Of Concern | Animal Shooting Incident | 1st Most Common Venue | 2nd Most Common Venue | 3rd Most Common Venue | 4th Most Common Venue |  
 | :------------- | :----------: | -----------: | ---------: | ---------: | ----------: | ----------: | ----------: | ----------: | ----------: | ----------: |----------: |
-|0|27705|37.603305785123965|9390.6|3.0|0.8|1.9|0.8|Trail|Coffee Shop|Park|Park|
-|1|79555|30.08695652173913|21789.6|3.6|3.4|5.4|5.6|Mexican Restaurant|Mexican Restaurant|Shopping Mall|Pizza Place|
-|2|47588|34.83168316831683|14497.2|3.3|2.5|5.0|2.3|Mexican Restaurant|Mexican Restaurant|Home Service|Pharmacy|
-|3|8896|37.607142857142854|2814.5|2.7|1.0|1.7|0.7|Mexican Restaurant|Mediterranean Restaurant|Ice Cream Shop|Yoga Studio|
+|0|27705|37.60|9390.6|3.0|0.8|1.9|0.8|Trail|Coffee Shop|Park|Park|
+|1|79555|30.09|21789.6|3.6|3.4|5.4|5.6|Mexican Restaurant|Mexican Restaurant|Shopping Mall|Pizza Place|
+|2|47588|34.83|14497.2|3.3|2.5|5.0|2.3|Mexican Restaurant|Mexican Restaurant|Home Service|Pharmacy|
+|3|8896|37.61|2814.5|2.7|1.0|1.7|0.7|Mexican Restaurant|Mediterranean Restaurant|Ice Cream Shop|Yoga Studio|
 
 ### Cluster 1
 
