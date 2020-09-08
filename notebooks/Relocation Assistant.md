@@ -169,4 +169,16 @@ Cluster 4 involves the following 4 most common venues
 |3rd Most Common | <img src="../images/cluster_4_3rd_most_common.png" width="494" height="529"> |
 |4th Most Common | <img src="../images/cluster_4_4th_most_common.png" width="494" height="529"> |
 
+## Summary & Conclusions:
 
+Out of the four clusters, 
+
++ Cluster 1: The neighbourhood in this cluster are suitable for those who like a scenic surroundings with park, and natural landscapes with low crime rate (shooting incidents), and moderate population with slightly higher age group.
+
++ Cluster 2: The neighbourhood in this cluster involves high shooting incidents, lower age group individuals, high population, with lot of restaurants and shopping complexes.
+
++ Cluster 3: The neighbourhood in this cluster involves moderately high shooting incidents, second lower age group individuals in the cluster, high population, with lot of restaurants and shopping complexes.
+
++ Cluster 4: The neihbourhood in this cluster are suitable for those who like a restaurants, health clubs, seeking safe, and low crime rate (shooting incidents), and very low population density with slightly higher age group individuals
+
+As illustrated in this short exercise, with additional data one can create more meaninful clusters to place relocating people in suitable clusters to help narrow down their search. In that sense, this is a capstone project and a small proof of concept demonstrating the feasibility of this kind of idea.
