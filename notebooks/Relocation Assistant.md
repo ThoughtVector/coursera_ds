@@ -110,7 +110,7 @@ Using Foursquare APIs totally 269 categories were identified as follows:
 
 The final dataset thus created is further processed through clustering algorithm. 
 
-Four different clusters were identified based on various metrics (elbow, silhoutte score etc). The clusters and defined and evaluated based on the top 3 most common venues as discussed in the results section.
+Four different clusters were identified based on various metrics (elbow, silhoutte score etc). The clusters and defined and evaluated based on the top 4 most common venues as discussed in the results section.
 
 The clustering distances are shown below
 
@@ -122,13 +122,15 @@ The Los Angeles neighbourhood map with clusters is shown below:
 
 ## Results
 
-| Cluster     | Mean Population   | Mean Age    |  Mean Number of Households | Average Household Size | Shooting involving injury | Animal Shooting | Non Animal Shooting of concern|
-| :------------- | :----------: | -----------: | ---------: | ---------: | ----------: | ----------: | ----------: |
-|  1 | 27706   | 38    |  9391 | 3  | 0.8  | 0.76  | 1.89  |
-|  2   | 79555 | 30 | 21790 | 3.63 | 3.41 | 5.59 | 5.37 |
-|  3 | 47588   | 34.83    |  14497 | 3.31 |  2.48 | 2.31 | 4.98  |
-|  4   | 8896 | 37.61 |2815 | 2.68 | 1.04 | 0.71 | 1.68 |
+| Cluster | Mean Population | Mean Age | Mean Number of Households | Average Household Size | Shooting involving Human injury | Non Animal Shooting Incidents Of Concern | Animal Shooting Incident | 1st Most Common Venue | 2nd Most Common Venue | 3rd Most Common Venue | 4th Most Common Venue |  
+| :------------- | :----------: | -----------: | ---------: | ---------: | ----------: | ----------: | ----------: | ----------: | ----------: | ----------: |----------: |
+|0|27705|37.603305785123965|9390.6|3.0|0.8|1.9|0.8|Trail|Coffee Shop|Park|Park|
+|1|79555|30.08695652173913|21789.6|3.6|3.4|5.4|5.6|Mexican Restaurant|Mexican Restaurant|Shopping Mall|Pizza Place|
+|2|47588|34.83168316831683|14497.2|3.3|2.5|5.0|2.3|Mexican Restaurant|Mexican Restaurant|Home Service|Pharmacy|
+|3|8896|37.607142857142854|2814.5|2.7|1.0|1.7|0.7|Mexican Restaurant|Mediterranean Restaurant|Ice Cream Shop|Yoga Studio|
 
 ### Cluster 1
 
-Cluster 1 involves 
+Cluster 1 involves the following 4 most common avenues
+
+
