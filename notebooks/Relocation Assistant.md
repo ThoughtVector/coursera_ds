@@ -177,9 +177,16 @@ Cluster 4 involves the following 4 most common venues
 |3rd Most Common | <img src="../images/cluster_4_3rd_most_common.png" width="494" height="529"> |
 |4th Most Common | <img src="../images/cluster_4_4th_most_common.png" width="494" height="529"> |
 
+## Recommendations:
+
++ Adding more datasets to the study will help bring out additional features and criteria
++ Expanding the region and the list of zipcodes will help cover larger area
++ The same concept can be extended to track epidemic / outbreak related incidents which would be particularly helpful during a pandemic such as Covid-19
++ The same concept can be extended to help people who travel for vacation by taking the interests of people and combining transportation related data
+
 ## Summary & Conclusions:
 
-Out of the four clusters, 
+Out of the four clusters identified, 
 
 + Cluster 1: The neighbourhood in this cluster are suitable for those who like a scenic surroundings with park, and natural landscapes with low crime rate (shooting incidents), and moderate population with slightly higher age group.
 
