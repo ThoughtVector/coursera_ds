@@ -92,6 +92,6 @@ Since for relocation assitant we need features such a closeby venues, Foursquare
 
 The following picture shows some of the venues:  
 
-<img src="../images/"venue_output_dataset.png" width = "646", height = "710">
+<img src="../images/venue_output_dataset.png" width = "646", height = "710">
 
 
