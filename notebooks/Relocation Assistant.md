@@ -59,3 +59,26 @@ Multiple datasets are brought together as outlined in the dataset filed of this 
 In the merged dataset, the relative proportions of various types of shooting incidents are shown below.
 
 <img src="../images/shooting_incident_bars.png"  width="476" height="690">
+
+Since not all shooting incidents are the same, two new features are created. 
+  + Any type of animal shooting is kept as a separate feature because that indicates the presence of animals that may not be friendly to human inhabitation. 
+  + All other shooting incidents, involving not an animal, are summed up irrespective of whether they resulted in a hit or not. The reason is, any kind of non-animal shooting, including but not limited to, warning shot etc, are equally dangerous. 
+  
+After the feature creation, the following type of proportion was observed in the dataset:
+
+##### Animal Shooting Episodes across zipcodes  
+<img src="../images/zipcode_animal_shooting_incidents_scatter.png"  width="1177" height="322">
+
+##### Shooting Episodes resulting in Human injury across zipcodes   
+<img src="../images/zipcode_hit_shooting_incidents_scatter.png"  width="1178" height="482">
+
+##### All non-animal shooting episodes of concern (human injury, warning shots, and others) across zipcodes   
+<img src="../images/zipcode_non_animal_shooting_incidents_scatter.png"  width="1179" height="322">
+
+##### All shooting instances as line chart (as a function of zipcode)
+<img src="../images/zipcode_shooting_incidents_line_chart.png"  width="1180" height="425">
+
+
+
+
+
