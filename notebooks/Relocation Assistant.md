@@ -60,6 +60,7 @@ In the merged dataset, the relative proportions of various types of shooting inc
 
 <img src="../images/shooting_incident_bars.png"  width="476" height="690">
 
+### Features related to shooting incidents  
 Since not all shooting incidents are the same, two new features are created. 
   + Any type of animal shooting is kept as a separate feature because that indicates the presence of animals that may not be friendly to human inhabitation. 
   + All other shooting incidents, involving not an animal, are summed up irrespective of whether they resulted in a hit or not. The reason is, any kind of non-animal shooting, including but not limited to, warning shot etc, are equally dangerous. 
@@ -78,7 +79,19 @@ After the feature creation, the following type of proportion was observed in the
 ##### All shooting instances as line chart (as a function of zipcode)
 <img src="../images/zipcode_shooting_incidents_line_chart.png"  width="1180" height="425">
 
+The above charts show there are areas that involve elevated levels of shooting incidents of some kind or other. This could be of concern to the people who like to relocate.
 
+### Features related to neighbourhood:  
 
+The dataset is futher enriched with neighbourhood information as reflected in the following map.  
+<img src="../images/los_angeles_neighbourhood.png"  width="1009" height="604">
+
+### Features related to venues (businesses, landmarks, institutions, parks, etc) using Foursquare APIs:
+
+Since for relocation assitant we need features such a closeby venues, Foursquare API was used to expand the neighbourhood further into different venues, and aggregate into 10 most common venues.
+
+The following picture shows some of the venues:  
+
+<img src="../images/"venue_output_dataset.png" width = "646", height = "710">
 
 
